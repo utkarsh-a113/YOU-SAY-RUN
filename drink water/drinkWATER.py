@@ -75,30 +75,9 @@ def restore_window(icon, item):
     icon.stop()
     root.after(0, root.deiconify)
 
-# ---------------- GUI ---------------- #
-
-root = tk.Tk()
-root.title("Water Reminder")
-root.geometry("300x200")
-root.protocol("WM_DELETE_WINDOW", minimize_to_tray)
-
-tk.Label(root, text="Interval (minutes):").pack(pady=5)
-interval_entry = tk.Entry(root)
-interval_entry.insert(0, "60")
-interval_entry.pack()
-
-tk.Button(root, text="Start", command=start_reminder).pack(pady=5)
-tk.Button(root, text="Stop", command=stop_reminder).pack(pady=5)
-
-status_label = tk.Label(root, text="Status: Stopped")
-status_label.pack(pady=10)
-
-root.mainloop()
-
-
 #-----------------------------------GUI--------------------------------#
 root = tk.Tk()
-root.title("daru Reminder")
+root.title("Water Reminder")
 root.geometry("300x200")
 root.protocol("WM_DELETE_WINDOW", minimize_to_tray)
 
