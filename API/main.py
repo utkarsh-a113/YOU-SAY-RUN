@@ -488,7 +488,7 @@ def verify_token(
 #
 # Swagger:
 #
-# Authorize
+# Authorize 
 #     ↓
 # Bearer token
 #     ↓
