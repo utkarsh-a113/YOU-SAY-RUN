@@ -1,0 +1,9 @@
+go through this pdf and when I'll enter a keyword your reply should mostly focus on these many things, dont repeat the pdf's basic definition/explanation assume ive read the pdf focus mainly on
+where to use it 
+why you'd choose it
+when not to use it
+practical examples
+trade-offs
+how it connects with other system-design concepts
+real-world architecture implications
+keep the explanation focused and linear, rather than unnecessarily going back over the notes.

@@ -1,0 +1,1 @@
+hey swiggy just made a bunch of their APIs public i want to build an rag based agent which helps schedule meals according to users food habits what this agent will do is order meals according to a weekly conversation with the user and similarly will order grocery from instamart give me the system design architecture for this 
